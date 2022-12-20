@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box!important;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400,700!important;
+    font-family: inter , lexend-deca !important;
+}
+
+.images {
+  background-image: linear-gradient(180deg, rgba(157, 84, 199, 0.6), hsl(277, 64%, 61%)), url("/stats-preview-card-component-main/images/image-header-desktop.jpg");
+}
+
+body {
+    background-color:hsl(233, 47%, 7%)!important;
+    font-family: "inter , lexend-deca" !important;
+  }
+
+  #section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .flexcontainer {
+    display: flex!important;
+    flex-direction: row;
+    align-items: center!important;
+    background-color: hsl(244, 38%, 16%) !important;
+    border-top-right-radius: 10px!important;
+    border-bottom-right-radius: 10px!important;
+    padding: 0px;
+  }
+
+   .images{
+    width: 400px;
+    height: 380px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px
+   }
+
+   .note {
+   padding-left:40px ;
+   padding-right:80px;
+  }
+
+  .numbers {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media screen and (max-width:980px) {
+    .flexcontainer {
+      display: flex !important;
+      flex-direction: column;
+      border-top-left-radius: 10px!important;
+      border-bottom-left-radius: 10px!important;
+      border-top-right-radius: 10px!important;
+      border-bottom-right-radius: 10px!important;
+    }
+
+    .images{
+      border: none;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      border-bottom-right-radius: 0px;
+      border-bottom-left-radius: 0px;
+      width: 370px;
+      height: 200px;
+    }
+
+    .flexcontainer > div {
+      margin:0px!important;
+    }
+
+    .note {
+      padding-left:0px ;
+      padding-right:0px;
+      text-align: center;
+      width: 370px;
+     }
+
+     .numbers {
+      display: flex;
+      justify-content: none;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+   
+
+
+
+
